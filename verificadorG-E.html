@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Flex</title>
+  <link rel="shortcut icon" href="img/combus.ico" type="image/x-icon">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Qual é mais econômico, Gasolina ou Etanol?</h1>
+  </header>
+  <section>
+    <div>
+      <h1>Calculadora Flex</h1>
+	<img src="img/neutro.png" alt="Calculadora Flex" id="status">
+      <p>Descrição: Insira o valor do combustível</p>
+	<form name="frmFlex">
+		<input type="text" placeholder="R$ Etanol" size="8" name="txtEtanol">
+		<input type="text" placeholder="R$ Gasolina" size="8" name="txtGasolina">
+		<input type="button" value="Vantagem" onclick="calcular()">
+		<input type="reset" value="Limpar" onclick="resetar()">
+	</form>
+    </div>
+  </section>
+  <footer>
+    <p>Edilania Martins &copy;  Todos os direitos reservados</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
